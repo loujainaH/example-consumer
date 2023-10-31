@@ -71,7 +71,7 @@ describe('API Pact test', () => {
         });
       return mockProvider.executeTest(async (mockserver) => {
         const api = new API(mockserver.url);
-
+//commit
         // make request to Pact mock server
         await expect(api.getProduct('11')).rejects.toThrow(
           'Request failed with status code 404'
