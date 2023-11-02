@@ -22,7 +22,7 @@ describe('API Pact test', () => {
         name: '28 Degrees',
         color: "green"
       };
-
+//hi
       // Uncomment to see this fail
       // const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', price: 30.0, newField: 22}
 
